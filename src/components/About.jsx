@@ -133,13 +133,13 @@ export default function About() {
             {/* Item 3 */}
             <div className="relative flex flex-col md:flex-row gap-6 md:gap-12 items-start">
               <div className="z-10 flex items-center justify-center bg-accent text-bg font-bold rounded-full w-16 h-16 shrink-0 shadow-[0_0_15px_rgba(var(--accent-rgb),0.4)]">
-                2026
+                2025
               </div>
               <div className="bg-surface/50 border border-white/5 rounded-xl p-6 md:p-8 flex-1 mt-2 md:mt-0">
                 <h3 className="text-xl font-bold mb-1">Data Analyst Junior</h3>
                 <p className="text-accent text-sm mb-4">en Kodigo / INCAF</p>
                 <p className="text-muted text-sm md:text-base leading-relaxed">
-                  Graduada del programa de análisis de datos. Obtención de la certificación Profesional en Análisis de Inteligencia de Negocios (BIAPC) por Certiprof con un puntaje de 90%.
+                  <a href='https://www.credly.com/badges/fef120e7-acd6-4a13-a2ef-65950c663f3f/accept_via_choose_sign_up'>Graduada del programa de análisis de datos. Obtención de la certificación Profesional en Análisis de Inteligencia de Negocios (BIAPC) por Certiprof  </a>
                 </p>
               </div>
             </div>

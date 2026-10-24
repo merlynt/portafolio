@@ -9,14 +9,13 @@ export default function ProjectCard({ project, index }) {
       transition={{ delay: index * 0.1 }}
       className="flex flex-col bg-[#111113] border border-white/5 rounded-2xl overflow-hidden hover:border-accent/30 transition-colors"
     >
-      {/* Cambiamos h-48 por h-56 o h-60 (224px o 240px) para dar más espacio vertical */}
+
       <div className="h-56 w-full relative flex items-center justify-center border-b border-white/5 overflow-hidden group bg-surface">
 
         <img
           src={project.media}
           alt={`Previsualización de ${project.title}`}
-          /* w-full h-full object-cover es clave, pero sin absolute inset-0 a veces respeta paddings invisibles. Usarlo así fuerza el llenado total */
-          className="absolute inset-0 w-full h-full object-cover object-center opacity-40 group-hover:opacity-80 group-hover:scale-105 transition-all duration-500 z-0"
+          className="absolute inset-0 w-full h-full object-contain object-center opacity-40 group-hover:opacity-80 transition-all duration-500 z-0"
         />
 
         <span className="absolute top-4 left-4 bg-black/60 backdrop-blur-sm border border-white/10 text-xs px-3 py-1 rounded-full text-white/90 z-10 shadow-lg">
@@ -57,7 +56,7 @@ export default function ProjectCard({ project, index }) {
             </svg>
           </a>
 
-      
+
         </div>
       </div>
     </motion.div>

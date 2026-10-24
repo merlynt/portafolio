@@ -19,7 +19,7 @@ export default function Hero() {
       {/* Contenido principal centrado */}
       <main className="flex-1 flex flex-col items-center justify-center px-6 pb-20 text-center">
         <motion.div variants={stagger} initial="hidden" animate="show" className="flex flex-col items-center max-w-3xl">
-          
+
           {/* Badge superior */}
           <motion.div
             variants={rise}
@@ -41,7 +41,7 @@ export default function Hero() {
             variants={rise}
             className="mb-8 font-sans text-[clamp(1.75rem,4vw,3rem)] font-semibold text-ink/90"
           >
-            Desarrolladora backend
+            Desarrolladora de software
           </motion.h2>
 
           {/* Párrafo descriptivo */}
@@ -49,7 +49,7 @@ export default function Hero() {
             variants={rise}
             className="mb-12 max-w-2xl text-balance text-base md:text-lg leading-relaxed text-muted"
           >
-            Construyo software que escala e interfaces que se entienden. 
+            Construyo software que escala e interfaces que se entienden.
             Diseño APIs modulares y optimizo experiencias web, del backend al último detalle de interfaz.
           </motion.p>
 
@@ -64,7 +64,8 @@ export default function Hero() {
               Ver proyectos
             </motion.a>
             <motion.a
-              href="/cv-nicole.pdf"
+              href="/cv-merlyn-rajo.pdf"
+              download="CV_Nicole_Rajo.pdf"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
